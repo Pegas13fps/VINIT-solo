@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>VINIT Lab | Портфолио </title>
+	<link rel="stylesheet" href="css/reset.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body class="portfolio-body">
+	<div class="social">
+		<a href="#" class="facebook"></a>
+	</div>
+	<div class="preheader" style="display: none;">
+
+	</div>
+	<div class="sandwich">
+		<div id="smart-menu">
+
+		</div>
+	</div>
+	<div class="contain">
+		<header class="header portfolio-header">
+			<a href="#" class="logo x"></a>
+			<div class="vin-it-box">
+				<div class="hh">
+					<em>V</em>
+					<em class="planet left">I</em>
+					<em>N</em>
+					<em class="planet right">I</em>
+					<em>T</em>
+				</div>
+			</div>
+			<h1>
+				К вашему вниманию проекты в которых я принимал участие или делал полностью сам.
+			</h1>
+			<nav class="main-menu">
+				<ul>
+					<li>
+						<a href="index.html#ab-us" onclick="return anchorScroller(this)">Обо мне</a>
+					</li>
+					<li>
+						<a href="index.html#capability" onclick="return anchorScroller(this)">Возможности</a>
+					</li>
+					<li>
+						<a href="#portfolio" onclick="return anchorScroller(this)">Работы</a>
+					</li>
+					<li>
+						<a href="#fot" onclick="return anchorScroller(this)">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="sandwich-right-bar">
+			<div class="sandBg"></div>
+			<a class="nav-toggle">
+				<span></span>
+			</a>
+			<ul class="right-menu">
+				<li><a href="index.html#ab-us" onclick="return anchorScroller(this)">Обо мне</a></li>
+				<li><a href="index.html#capability" onclick="return anchorScroller(this)">Возможности</a></li>
+				<li><a href="#portfolio" onclick="return anchorScroller(this)">Работы</a></li>
+				<li><a href="#fot" onclick="return anchorScroller(this)">Контакты</a></li>
+			</ul>
+		</div>
+
+	</div>
+	<main>
+		<!-- START SLIDER -->
+		<div class="squares">
+			<div class="info-about-us">
+				<h2>Ваши идеи оживают, мои технологии работают!</h2>
+				<p>Ниже представлены, уже воплощенные мною проекты с которимы вы можете ознакомиться</p>
+			</div>
+			<a name="portfolio" class="anch"></a>
+			<div  class="squares-itm it-1" onclick="slide('wrap1');heightBox('box'); return false">
+				<div class="description-1">
+					<h3>Проект ASL</h3>
+					<p>Сайт-визитка частной клиники. <br>Они точно знают, что у Вас в голове</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-2" onclick="slide('wrap2');heightBox('box-2'); return false">
+				<div class="description-2">
+					<h3>Проект Cinematicstar</h3>
+					<p>Сайт-каталог креативной музыкальной студии. <br> Они знают толк в создании современной музыки</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-3" onclick="slide('wrap3');heightBox('box-3'); return false">
+				<div class="description-3">
+					<h3>Проект Земельные работы</h3>
+					<p>Лендинг по продаже услуг</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div id="box" class="op-box-1 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap1" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p><a href="http://asl.com.ua" target="_blank">Академия Успешной Жизни</a>– это центр практической психологии, в котором каждый сможет гармонизировать свою жизнь, путь и задачи.</p>
+					<h2>О проекте</h2>
+					<p>Команда VINIT Lab создала отзывчивый <a href="http://asl.com.ua" target="_blank">веб-сайт</a> с современной цветовой палитрой, который хорошо работает как на настольном, так и на мобильном устройстве.</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+				</div>
+			</div>
+			<div id="box-2" class="op-box-2 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap2" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p>Команда <a href="http://www.cinematicstar.com/" target="_blank">Shved & Shevalin prod.</a> занимается созданием высококлассного музыкального контента, сочетающего в себе классические и современные жанры.</p>
+					<h2>О проекте</h2>						
+					<p>VINIT Lab создала каталог с удобным интерфейсом, получив на выходе отзывчивый <a href="http://www.cinematicstar.com/" target="_blank">веб-сайт</a>, который хорошо работает как на настольном, так и на мобильном устройстве.</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+				</div>
+			</div>
+			<div id="box-3" class="op-box-3 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap3" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p>Одним из основных направлений деятельности компании <a href="http://zemlya.kiev.ua/" target="_blank">Hussel</a> является выполнение земляных работ любой сложности</p>
+					<h2>О проекте</h2>						
+					<p>VINIT Lab успешно дополнила основной сайт предриятия <a href="http://zemlya.kiev.ua/" target="_blank">продающим лендинг-пейджем.</a></p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+					</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-4" onclick="slide('wrap4');heightBox('box-4'); return false">
+				<div class="description-4">
+					<h3>Проект Dikoscanner</h3>
+					<p>Сайт-визитка инновационного продукта по защите интеллектуальной собственности</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-5" onclick="slide('wrap5');heightBox('box-5'); return false">
+				<div class="description-5">
+					<h3>Проект Harmandcharm</h3>
+					<p>Интернет-магазин брендовой одежды.</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-6" onclick="slide('wrap6');heightBox('box-6'); return false">
+				<div class="description-6">
+					<h3>Проект LTL</h3>
+					<p>Сайт-визитка современного производственного предприятия</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div id="box-4" class="op-box-4 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap4" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p><a href="http://dikoscanner.com/" target="_blank">Стартап Dikoscanner</a> от компании DikoTech призван помочь музыкальным авторам всего мира защищать свои авторские права</p>
+					<h2>О проекте</h2>						
+					<p>В данном проекте коммандой VINIT Lab было полностью раскрыто суть инновационного продукта на <a href="http://dikoscanner.com/" target="_blank">красивом и оригинальном стайте.</a></p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						
+					</div>
+				</div>
+			</div>
+			<div id="box-5" class="op-box-5 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap5" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p>Киевский производитель стильной одежды <a href="http://www.harmandcharm.com/" target="_blank">Harmandcharm </a>, которая продается по всему миру.</p>
+					<h2>О проекте</h2>						
+					<p>Команда VINIT Lab разработала собственный дизайн и <a href="http://www.harmandcharm.com/" target="_blank">интеграцию интернет-магазина</a></p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+				</div>
+			</div>
+			<div id="box-6" class="op-box-6 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap6" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p>Лидер по предоставлению комплексных решений для использования лакокрасочных материалов <a href="http://ltl-group.ua/" target="_blank">LTL Group</a></p>
+					<h2>О проекте</h2>						
+					<p>VINIT Lab осуществила полный редизайн <a href="http://ltl-group.ua/" target="_blank">сайта LTL Group</a> и кардинальное изменение структуры для соответствия современным требованиям</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-7" onclick="slide('wrap7');heightBox('box-7'); return false">
+				<div class="description-7">
+					<h3>Проект LTLSchool</h3>
+					<p>Лендинг по продаже обучения</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-8" onclick="slide('wrap8');heightBox('box-8'); return false">
+				<div class="description-8">
+					<h3>Проект Psychology</h3>
+					<p>Сайт визитка частного психолога</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-9" onclick="slide('wrap9');heightBox('box-9'); return false">
+				<div class="description-9">
+					<h3>Проект Brovary-avto</h3>
+					<p>Сайт-визитка автопредприятия</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div id="box-7" class="op-box-7 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap7" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p>Лидер по предоставлению комплексных решений для использования лакокрасочных материалов <a href="http://school.ltl.com.ua/" target="_blank">LTL Group</a></p>
+					<h2>О проекте</h2>						
+					<p>Был разработан и интегрирован <a href="http://school.ltl.com.ua/" target="_blank">современный сайт-лендинг</a> для продажи обучающих курсов</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						
+					</div>
+				</div>
+			</div>
+			<div id="box-8" class="op-box-8 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap8" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p>Частный психолог, разработавший современные методологии личностного роста</p>
+					<h2>О проекте</h2>						
+					<p>Командой был разработан <a href="https://andriyzubets.github.io/psyhology/" target="_blank">сайт-визитка</a> в короткие сроки</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+				</div>
+			</div>
+			<div id="box-9" class="op-box-9 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap9" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p><a href="http://brovary-avto.kiev.ua/" target="_blank">Филиал</a> одного из крупнейших предприятий Украины, специализирующийся на продаже и обслуживании автотранспорта</p>
+					<h2>О проекте</h2>						
+					<p>Был разработан <a href="http://brovary-avto.kiev.ua/" target="_blank">сайт</a>, отталкиваясь на смещении акцента предприятия</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+				</div>
+			</div>
+			<div class="squares-itm it-10" onclick="slide('wrap10');heightBox('box-10'); return false">
+				<div class="description-10">
+					<h3>Проект Spectekhnika</h3>
+					<p>Сайт-каталог по продаже спецтехники</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div class="squares-itm it-11" onclick="slide('wrap11');heightBox('box-11'); return false">
+				<div class="description-11">
+					<h3>Проект Nosgromada</h3>
+					<p>Сайт городского совета</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div class="squares-itm it-12" onclick="slide('wrap12');heightBox('box-12'); return false">
+				<div class="description-12">
+					<h3>Проект MMStudio</h3>
+					<p>Лендинг по продаже услуг</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div id="box-10" class="op-box-10 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap10" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p><a href="http://www.spectekhnika.com.ua/" target="_blank">Дилер,</a> специализирующийся на продаже спецтехники из Европы</p>
+					<h2>О проекте</h2>						
+					<p>Полнофункциональный <a href="http://www.spectekhnika.com.ua/" target="_blank">одностраничный каталог</a> спецтехники</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						
+					</div>
+					<br><br>
+				</div>
+			</div>
+			<div id="box-11" class="op-box-11 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap11" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p><a href="https://nosgromada.gov.ua/" target="_blank">Носовский городской совет</a>, Черниговской области</p>
+					<h2>О проекте</h2>						
+					<p>Были произведены редизайн, оптимизация и ускорение работы <a href="https://nosgromada.gov.ua/" target="_blank">ресурса.</a></p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+				</div>
+			</div>
+			<div id="box-12" class="op-box-12 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap12" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p><a href="https://andriyzubets.github.io/CV/MM-studio/" target="_blank">Студия</a>, оказывающая услуги по дизайну и продвижению веб ресурсов</p>
+					<h2>О проекте</h2>						
+					<p>Одностраничный <a href="https://andriyzubets.github.io/CV/MM-studio/" target="_blank">лендинг-пейдж</a> для продажи услуг.</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						
+					</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-13" onclick="slide('wrap13');heightBox('box-13'); return false">
+				<div class="description-13">
+					<h3>Проект VNT MM</h3>
+					<p>Сайт-визитка интернет студии</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-14" onclick="slide('wrap14');heightBox('box-14'); return false">
+				<div class="description-14">
+					<h3>Проект Spectekhnika New</h3>
+					<p>Сайт-каталог спецтехники</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-15" onclick="slide('wrap15');heightBox('box-15'); return false">
+				<div class="description-15">
+					<h3>Проект Merx</h3>
+					<p>Лендинг продуктового направления мебельного производителя</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div id="box-13" class="op-box-13 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap13" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<h2>О проекте</h2>						
+					<p>Был разработан <a href="https://andriyzubets.github.io/CV/portfolio-brandmm/index.html" target="_blank">шаблон</a> для студии веб дизайна</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+				</div>
+			</div>
+			<div id="box-14" class="op-box-14 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap14" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p><a href="http://www.spectekhnika.com.ua/" target="_blank">Дилер,</a> специализирующийся на продаже спецтехники из Европы</p>
+					<h2>О проекте</h2>						
+					<p>Произведен редизайн <a href="https://andriyzubets.github.io/CV/portfolio-spectekhnika/index.html" target="_blank">каталога</a> по продаже спецтехники</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+					<br><br>
+				</div>
+			</div>
+			<div id="box-15" class="op-box-15 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap15" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p>Лидер мебельной промышленности в Украине <a href="https://merx.ua" target="_blank">Merx</a></p>
+					<h2>О проекте</h2>						
+					<p>Для продвижения различных направлений были разработаны продающие <a href="https://dlyadoma.merx.ua/" target="_blank">лендинг-пейджы</a> к основному сайту.</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+					</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-16" onclick="heightBox('box-16'); slide('wrap16'); return false">
+				<div class="description-16">
+					<h3>Проект Rhinos-blog</h3>
+					<p>Блог к основному сайту студии</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-17" onclick="heightBox('box-17'); slide('wrap17'); return false">
+				<div class="description-17">
+					<h3>Проект GOIT</h3>
+					<p>Сайт-визитка для туристического агентства</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div  class="squares-itm it-18" onclick="heightBox('box-18'); slide('wrap18'); return false">
+				<div class="description-18">
+					<h3>Проект Pravo</h3>
+					<p>Сайт-визитка агентства</p>
+					<div class="read-more">Узнать больше</div>
+				</div>
+			</div>
+			<div id="box-16" class="op-box-16 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap16" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О заказчике</h2>
+					<p>Молодой проект по разработке и продвижению веб-ресурсов <a href="http://riarhinos.com/"  target="_blank">Rhino</a></p>
+					<h2>О проекте</h2>						
+					<p>Был разработан и интегрирован <a href="https://andriyzubets.github.io/rhinos-blog/" target="_blank">блог</a> для основного сайта.</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+					<br><br>
+				</div>
+			</div>
+			<div id="box-17" class="op-box-17 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap17" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+					<h2>О проекте</h2>						
+					<p>Разработан универсальный <a href="https://andriyzubets.github.io/CV/portfolio-base/" target="_blank">шаблон</a> для туристического агентства</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="mySql"></div>
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+			<div id="box-18" class="op-box-18 box" style="max-height:0px;max-width:0px">
+				<div class="left-cont">
+					<div id="wrap18" class="wrap" style="left:0;">
+						<div class="item1"></div>
+						<div class="item2"></div>
+						<div class="item3"></div>
+					</div>
+				</div>
+				<div class="tech-cont">
+
+					<h2>О проекте</h2>						
+					<p>Универсальный <a href="https://andriyzubets.github.io/CV/pravo/index.html" target="_blank">шаблон</a> для юридического агентстсва</p>
+					<h2>Технологии</h2>
+					<div class="used-tech">
+						<div class="html"></div>
+						<div class="css"></div>
+						<div class="js"></div>
+						<div class="wp"></div>
+						<div class="mySql"></div>
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<a name="fot" class="anch"></a>
+			<div class="left port-left">
+				<div class="bottom-advantages">
+					<div class="adv-cont">
+						<h3>Каждый из моих проектов это:</h3>
+						<div class="div-h">КВАЛИФИЦИРОВАННЫй
+							<span>подход и реализация</span>
+						</div>
+						<div class="div-h">ПРОФЕССИОНАЛЬНЫй
+							<span>тайминг проектов</span>
+						</div>
+						<div class="div-h">ИНДИВИДУАЛЬНОЕ
+							<span>проектирование и разработка</span>
+						</div>
+						<div class="div-h">КАЧЕСТВЕННАЯ
+							<span>реализация технического задания</span>
+						</div>
+					</div>
+
+					<div class="bot-but">
+						<p>У вас остались вопросы? Задавайте!</p>
+						<p>Или еще лучше - </p>
+						<a href="#" class="but1">Напишите мне!
+							<span class="arrow"></span>
+						</a>					
+					</div>
+
+				</div>
+			</div>
+			<div class="right port-right">
+				<div class="wrap">
+					<h2>
+						Инновации, саморазвитие, креатив и нацеленность на результат!
+					</h2>
+					<a href="tel:+380939181777">+380939181777</a>
+					<p>
+						Готов работать <br>в любых условиях, и любом месте Киева
+					</p>
+				</div>
+			</div>
+		</footer>
+		<div class="copy">
+			<div class="wrap">
+				<ul class="left">
+					<li>&#169; <script type='text/javascript'>var mdate = new Date();document.write(mdate.getFullYear());</script> VINIT LLC 
+					</li>
+					<li>&#169; Все права защищены</li>
+				</ul>
+				<ul class="right">
+					<li class="fb">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="li">
+						<a href="#" target="_blank"></a>
+					</li>
+					<li class="mail">
+						<a href="#" target="_blank"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</main>
+</body>
+<script src="js/script.js"></script>
+</html>
